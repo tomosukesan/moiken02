@@ -15,7 +15,6 @@ website/
 ├─ social.html        懇親会のご案内
 ├─ access.html        会場アクセス（会場情報・地図）
 ├─ report-1st.html    第1回 開催報告（2025年11月23日・東京芸術センター）
-├─ contact.html       お問い合わせ・よくあるご質問
 ├─ assets/style.css   全ページ共通のデザイン
 ├─ assets/script.js   スマホメニュー開閉／開催カウントダウン
 └─ images/            keyvisual.jpg（ヒーロー画像）
@@ -40,7 +39,6 @@ website/
 |---|---|
 | `greeting.html` | 挨拶文・代表者名・所属（現在は構成見本） |
 | `report-1st.html` | 当日の写真（本文はnote記事をもとに作成済み） |
-| `contact.html` | 事務局のメールアドレス・受付時間 |
 | `program.html` | 登壇者・セッション内容（時間割は公募締切後に確定） |
 | `social.html` | 懇親会の会場・定員 |
 

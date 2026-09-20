@@ -324,3 +324,12 @@ ol.steps p { margin: 0; font-size: 15px; color: var(--gray); }
 .center { text-align: center; }
 .muted { color: var(--gray); font-size: 14px; }
 .edit-note { font-size: 12.5px; color: var(--gray-light); }
+
+/* 日本語の折り返しを文節単位に（対応ブラウザのみ） */
+.lead, .hero-lead, .section-soft p, .card p, .cta-band p, .vision-text {
+  word-break: auto-phrase; text-wrap: pretty;
+}
+/* 文節のかたまり（この中では改行しない） */
+.ph { display: inline-block; }
+/* 中央揃えの短い段落は行長を均等に */
+.section-soft .center p, .cta-band p, .section-head.center p, .hero-lead { text-wrap: balance; }
