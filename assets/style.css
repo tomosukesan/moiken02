@@ -312,10 +312,23 @@ ol.steps li::before {
 ol.steps h3 { margin: 0 0 4px; font-size: 17px; color: var(--navy); }
 ol.steps p { margin: 0; font-size: 15px; color: var(--gray); }
 
+/* ---------- 文節で改行するテキスト ---------- */
+.phrase span { display: inline-block; }
+
+/* ---------- ポスター図版 ---------- */
+.poster-figure { margin: 36px auto 8px; max-width: 460px; text-align: center; }
+.poster-figure img { border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-lg); }
+.poster-figure figcaption { margin-top: 12px; font-size: 13px; color: var(--gray); line-height: 1.7; }
+
+/* ---------- ページ内 CTA ---------- */
+.cta-inline { text-align: center; padding: 8px 0 44px; }
+.cta-inline-title { margin: 0 0 8px; font-size: 20px; font-weight: 700; color: var(--navy); }
+.cta-inline-note { margin: 0 0 24px; font-size: 15px; color: var(--gray); }
+
 /* ---------- CTA 帯 ---------- */
-.cta-band { background: linear-gradient(120deg, var(--navy) 0%, var(--blue-dark) 100%); color: #fff; padding: 66px 0; text-align: center; }
-.cta-band h2 { margin: 0 0 10px; font-size: clamp(20px, 3vw, 28px); letter-spacing: .04em; }
-.cta-band p { margin: 0 0 28px; color: var(--blue-light); font-size: 15px; }
+.cta-band { background: var(--sky); color: var(--navy); padding: 72px 0; text-align: center; border-top: 1px solid var(--line); }
+.cta-band h2 { margin: 0 0 10px; font-size: clamp(20px, 3vw, 28px); letter-spacing: .04em; color: var(--navy); }
+.cta-band p { margin: 0 0 28px; color: var(--gray); font-size: 15px; }
 
 /* ---------- フッター ---------- */
 .site-footer { background: var(--navy); color: rgba(255,255,255,.8); padding: 56px 0 28px; font-size: 14px; }
